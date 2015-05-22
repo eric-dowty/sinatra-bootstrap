@@ -1,0 +1,70 @@
+/* imports a Google font (used for brand) */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/* background image */
+
+body {
+  background: url('/img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* header formatting */
+
+.brand-name {
+  font-family: 'Lobster', cursive;
+  font-size: 175%;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.brand-name a {
+  color: #800000;
+}
+
+.brand-name a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-bar {
+  background-color:#777 !important;
+}
+
+/* adds padding to top and bottom of page to account for navbar and footer */
+
+.main-page {
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+
+/* footer formatting */
+
+.footer img {
+  width: 30px;
+}
+
+.footer a {
+  color: #777;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: white;  
+}
+
+.footer {
+  padding: 10px;
+}
+
+/* column formatting */ 
+
+.col-sm-6, .col-md-6, .col-lg-6 {
+  display: block;
+  text-align: center;
+}
+
+

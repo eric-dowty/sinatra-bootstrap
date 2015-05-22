@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Responsive Bootstrap</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='img/favicon.ico' rel='shortcut icon'>
+    <link href='css/bootstrap.css' rel='stylesheet'>
+    <link href='css/media.scss' rel='stylesheet'>
+    <link href='css/custom.scss' rel='stylesheet'>
+  </head>
+    
+  <body>
+
+    <div class='container'>
+      <%= erb :navigation %>
+    </div>
+
+    <%= yield %>
+
+    <div class='container'>
+      <%= erb :footer %>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
